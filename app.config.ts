@@ -11,9 +11,9 @@ export default defineAppConfig({
     header: {
       position: 'left', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/favicon.png', // path of the logo
-        pathDark: '/favicon.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: '0x22.sh' // alt of the logo
+        path: '/logo.svg', // path of the logo
+        pathDark: '', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        alt: 'The Infosec Hangout' // alt of the logo
       }
     },
     footer: {
