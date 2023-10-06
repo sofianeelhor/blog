@@ -30,9 +30,9 @@ export default defineAppConfig({
       instagram: '',
 
       linkedin: {
-        icon: 'uil:linkedin',
+        icon: 'ph:cube',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
+        href: 'https://app.hackthebox.com/profile/143207'
       },
 
       github: 'sofianeelhor'
