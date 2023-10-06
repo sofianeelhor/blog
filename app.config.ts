@@ -31,7 +31,7 @@ export default defineAppConfig({
 
       linkedin: {
         icon: 'ph:cube',
-        label: 'LinkedIn',
+        label: 'hackthebox',
         href: 'https://app.hackthebox.com/profile/143207'
       },
 
