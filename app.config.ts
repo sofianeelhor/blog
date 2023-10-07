@@ -4,7 +4,7 @@ export default defineAppConfig({
     description: '22sh’s infoSec blog: Dive into Write-ups & shenanigans.',
 
     image: {
-      src: '/banner.png',
+      src: '/banner1.png',
       alt: '',
       width: 400,
       height: 300
