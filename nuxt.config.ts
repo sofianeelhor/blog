@@ -8,5 +8,11 @@ export default defineNuxtConfig({
     // https://github.com/nuxt/devtools
     '@nuxt/devtools',
     '@nuxthq/studio'
-  ]
+  ],
+  
+  nitro: {
+    prerender: {
+      failOnError: false,
+    }
+  }
 })
