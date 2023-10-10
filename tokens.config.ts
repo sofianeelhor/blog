@@ -73,7 +73,7 @@ export default defineTheme({
     },
 
     primary: {
-      '500': '#737373'
+      '500': '#bdbdbd'
     }
   },
 
