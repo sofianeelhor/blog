@@ -6,8 +6,16 @@ export default defineTheme({
       primary: {
         color: {
           static: {
-            initial: '#18181B',
+            initial: '#fafafa',
             dark: '#fafafa'
+          }
+        }
+      },
+
+      secondary: {
+        color: {
+          static: {
+            initial: 'var(--color-gray-400)'
           }
         }
       }
@@ -59,6 +67,16 @@ export default defineTheme({
       backgroundColor: {
         initial: '#000000',
         dark: '#000000'
+      },
+
+      color: {
+        initial: 'var(--color-gray-200)'
+      }
+    },
+
+    backdrop: {
+      backgroundColor: {
+        initial: '#18181bb3'
       }
     }
   },
@@ -79,5 +97,35 @@ export default defineTheme({
 
   font: {
     sans: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color'
+  },
+
+  prose: {
+    blockquote: {
+      color: {
+        initial: 'var(--typography-color-secondary-400)'
+      }
+    },
+
+    code: {
+      block: {
+        color: {
+          initial: 'var(--typography-color-secondary-200)'
+        },
+
+        backgroundColor: {
+          initial: 'var(--typography-color-secondary-900)'
+        }
+      },
+
+      inline: {
+        color: {
+          initial: 'var(--typography-color-secondary-200)'
+        },
+
+        backgroundColor: {
+          initial: 'var(--typography-color-secondary-800)'
+        }
+      }
+    }
   }
 })
