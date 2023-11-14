@@ -14,5 +14,10 @@ export default defineNuxtConfig({
     prerender: {
       failOnError: false,
     }
+  },
+  content: {
+    highlight: {
+      preload: ['python']
+    }
   }
 })
